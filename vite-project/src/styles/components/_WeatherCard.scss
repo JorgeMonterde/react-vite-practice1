@@ -1,0 +1,29 @@
+.weather_card {
+    margin: 0;
+    background-color: aliceblue;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    &>.day_card {
+        background-color: rgb(222, 240, 255);
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+        &>.hour_forecast {
+            padding: 1%;
+            width: 20vh;
+            margin: 1%
+        }
+
+    }
+}

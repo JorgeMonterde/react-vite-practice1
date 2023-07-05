@@ -1,0 +1,24 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    max-height: 10vh;
+    margin:0px;
+
+
+    &>h1{
+        @include h1-titles;
+        padding: 0;
+        margin:0;
+        display: flex;
+        justify-content:flex-start;
+        flex-grow: 1;
+        
+    }
+}

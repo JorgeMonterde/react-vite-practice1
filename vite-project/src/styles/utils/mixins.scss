@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+@mixin h1-titles{
+    font-family: $titles-font;
+    font-size: 40px;
+}
+
+@mixin h2-titles{
+    font-family: $titles-font;
+    font-size: 30px;
+}
+
+@mixin anchors{
+    font-family: $titles-font;
+    font-size: 20px;
+}
+
+@mixin forms{
+    font-family: $normal-font;
+    font-size: 20px;
+    border: 0;
+}

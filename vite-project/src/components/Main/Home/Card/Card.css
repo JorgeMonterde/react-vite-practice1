@@ -1,0 +1,10 @@
+.user_card {
+    margin: 3vh;
+    padding: 5vh;
+    border-radius: 24px;
+    background-color: aliceblue;
+}
+
+.user_card img{
+    width: 60vw;
+}

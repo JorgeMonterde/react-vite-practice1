@@ -1,0 +1,17 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.home {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    &>form{
+        form {
+            display:flex;
+            flex-direction: column;
+        }
+    }
+}
